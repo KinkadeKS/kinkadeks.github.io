@@ -1,0 +1,116 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    top: 0;
+    margin-top: 0px;
+    overflow: hidden;
+    background-color: #0097a7;
+    width: 100%;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+#home {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    padding: 16px 14px;
+}
+
+#back {
+    border-right: 2px solid black;
+    padding: 16px 14px;
+}
+
+#title {
+    display: inline-block;
+    /* Fix margin */
+    margin-left: 35%;
+    margin-bottom: 0px;
+    padding-top: 3px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#profile {
+    float: right;
+    padding: 15px 14px 10px 14px;
+    border-left: 2px solid black;
+}
+
+#profile img {
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 40px;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown #dropdown-button {
+    font-size: 26px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 19px 12px 18px 12px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover #dropdown-button {
+    background-color: goldenrod;
+}
+
+.dropdown-content {
+    margin-top: 1.5px;
+    display: none;
+    position: absolute;
+    background-color: #d3f3f7;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #a5c7e8;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    padding: 20px 0px;
+    margin: 0px;
+    width: 100%;
+    overflow: hidden;
+    background-color: #0097a7;
+    border-top: 2px solid black;
+}
