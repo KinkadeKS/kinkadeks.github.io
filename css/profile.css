@@ -29,7 +29,7 @@ main {
     height: 300px;
     margin-top: 10px;
     border-left: 3px solid #0097a7;
-    margin-left: 33em;
+    margin-left: 34vmax;
 }
 
 .right-line {
