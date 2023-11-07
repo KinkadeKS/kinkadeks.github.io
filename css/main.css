@@ -35,7 +35,7 @@ body {
 #title {
     display: inline-block;
     /* Fix margin */
-    margin-left: 35%;
+    margin-left: 37%;
     margin-bottom: 0px;
     padding-top: 3px;
     text-align: center;
@@ -55,6 +55,12 @@ body {
     border: 2px solid black;
     border-radius: 50%;
     width: 40px;
+}
+
+#logout {
+    float: right;
+    padding: 16px 12px 16px 12px;
+    border-left: 2px solid black;
 }
 
 .dropdown {
