@@ -1,0 +1,19 @@
+.content {
+    display: block;
+    margin-left: auto;
+    margin-top: 15em;
+}
+
+.content a {
+    display: inline-block;
+    background-color: bisque;
+    height: 100px;
+    width: 200px;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding-top: 25px;
+    border: 2px solid black;
+}
+
