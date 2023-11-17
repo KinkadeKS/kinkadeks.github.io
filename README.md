@@ -6,3 +6,4 @@
 - Howard Kong
 - Kinkade Knox-Silvia
 - Varun Bharthavarapu
+- Javier Amaro
