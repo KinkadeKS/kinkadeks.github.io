@@ -1,0 +1,25 @@
+.sidebar {
+    height: 590px;
+    width: 124px;
+    display: inline-block;
+    border-right: 2px solid black;
+    background-color: lightsteelblue;
+    margin-left: 0;
+    margin-right: 3em;
+}
+
+.sidebar > a {
+    height: 25px;
+    width: 90px;
+    display: block;
+    margin-top: 545px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background-color: azure;
+    border: 1px solid black;
+    border-radius: 10px;
+}
