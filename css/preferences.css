@@ -3,21 +3,62 @@ main {
     margin-right: 5px;
 }
 
+#title {
+    margin-left: 40vmax;
+}
+
+.left-line {
+    display: inline-block;
+    border: 2px solid #0097a7;
+    height: 600px;
+    overflow: hidden;
+    margin-left: 28vmax;
+    margin-right: 44px;
+}
+
+.right-line {
+    display: inline-block;
+    border: 2px solid #0097a7;
+    height: 600px;
+    overflow: hidden;
+    margin-left: 39vmax;
+}
+
 .content {
+    position: absolute;
+    display: inline-block;
+}
+
+.content form {
     display: block;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 #label {
+    position: relative;
     display: inline-block;
-    height: 25px;
     margin-right: 10px;
+    top: 7px;
+}
+
+#frequency {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 2vmax;
 }
 
 #label:first-of-type {
-    margin-top: 60px;
+    margin-top: 45px;
+}
+
+hr {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    width: 18vmax;
+    top: 10px;
+    margin-right: 20px;
+    margin-left: 5px;
 }
 
 /*Toggle switches for preferences */
@@ -26,7 +67,6 @@ main {
     display: inline-block;
     width: 60px;
     height: 34px;
-    text-align: center;
 }
 
 .switch input {
@@ -77,3 +117,30 @@ input:checked + .slider:before {
 .slider.round:before {
     border-radius: 50%;
 }
+
+.notif {
+    text-align: center;
+    vertical-align: top;
+    display: inline-block;
+    height: 250px;
+    width: 350px;
+}
+
+.notif button {
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 250px;
+    margin-top: 30px;
+    padding: 7px 0px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    background-color: rgb(180, 200, 225);
+}
+
+.left, .right {
+    display: inline-block;
+    border: 2px solid #0097a7;
+    height: 250px;
+    overflow: hidden;
+    margin-top: 50px;
+}   
