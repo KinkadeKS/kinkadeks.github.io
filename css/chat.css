@@ -30,6 +30,7 @@
 
 .messages {
     height: 510px;
+
 }
 
 #bot-message img {
@@ -47,6 +48,25 @@
     border-radius: 15px;
     padding: 7px 12px;
     margin-left: 13px;
+}
+
+#user-message img {
+    float: right;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin-top: 17px;
+    margin-left: 13px;
+}
+
+#user-message p {
+    display: inline-block;
+    text-align: right;
+    width: 40px;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 7px 12px;
+    margin-left: 73vmax;
 }
 
 .input form {
@@ -67,4 +87,8 @@
 
 .input form input:focus {
     outline: 3px solid lightblue;
+}
+
+.input form input::placeholder {
+    color: rgb(83, 83, 83);
 }
