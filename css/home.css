@@ -1,0 +1,58 @@
+h1 {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 35px;
+    font-weight: 500;
+    color: darkblue;
+}
+
+hr {
+    border: 2px solid lightblue;
+    width: 70vmax;
+}
+
+.quick-access {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.quick-access a {
+    display: inline-block;
+    width: 200px;
+    border: 1px solid #333;
+    border-radius: 15px;
+    text-align: center;
+    padding: 5px 10px;
+    margin-bottom: 45px;
+}
+
+.quick-access a:hover {
+    outline: 5px solid goldenrod;
+    transition: 0.1s;
+}
+
+.quick-access a:first-of-type {
+    margin-right: 50px;
+}
+
+.quick-access a:last-of-type {
+    margin-left: 50px;
+}
+
+.content {
+    text-align: center;
+}
+
+.content div {
+    text-align: center;
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
