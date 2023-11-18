@@ -81,6 +81,7 @@ body {
 
 .navbar a:hover, .dropdown:hover #dropdown-button {
     background-color: goldenrod;
+    transition: 0.2s;
 }
 
 .dropdown-content {
