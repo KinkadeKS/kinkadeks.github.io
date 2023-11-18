@@ -46,12 +46,12 @@ img {
     margin-bottom: 30px;
 }
 
-form > label {
+label {
     font-size: 21px;
     font-weight: 500;
 }
 
-form > input {
+input {
     width: 370px;
     margin-top: 10px;
     padding: 12px 14px;
@@ -59,7 +59,7 @@ form > input {
     border-radius: 7px;
 }
 
-form > input:focus {
+input:focus {
     outline: 2px solid #0097a7;
     background-color: rgb(250, 250, 250);
 }

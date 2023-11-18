@@ -14,24 +14,22 @@
         <div class="content"> 
             <img src="assets/favicon.ico">
 
-            <div class="username">
-                <form>
+            <form method="get" action="home.html">
+                <div class="username">
                     <label>Username</label>
                     <br>
-                    <input name="username" type="text">
-                </form>
-            </div>
-            <div class="password">
-                <form>
+                    <input name="username" type="text" required>
+                </div>
+                <div class="password">
                     <label>Password</label>
                     <br>
-                    <input name="password" type="password">
-                </form>
-            </div>
-            <div class="log-in">
-                <a href="home.html"><button>Login</button></a>
-                <p>Don't have an account? <a href="">Sign up!</a></p>
-            </div>
+                    <input name="password" type="password" required>
+                </div>
+                <div class="log-in">
+                    <a href="home.html"><button>Login</button></a>
+                    <p>Don't have an account? <a href="signup.html">Sign up!</a></p>
+                </div>
+            </form>
         </div>
 
         <footer>
