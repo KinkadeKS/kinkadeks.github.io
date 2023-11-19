@@ -34,8 +34,7 @@ body {
 
 #title {
     display: inline-block;
-    /* Fix margin */
-    margin-left: 37%;
+    margin-left: 38vw;
     margin-bottom: 0px;
     padding-top: 3px;
     text-align: center;
