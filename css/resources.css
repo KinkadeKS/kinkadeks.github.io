@@ -1,0 +1,30 @@
+main {
+    margin: 5px 5px;
+}
+
+.content {
+    display: block;
+    text-align: center;
+}
+
+.content div {
+    margin-top: 6em;
+    display: inline-block;
+}
+
+.content div p {
+    font-size: 25px;
+}
+
+.content div img {
+    width: 200px;
+    border: 2px solid black;
+}
+
+.content div:first-of-type {
+    margin-right: 40px;
+}
+
+.content div:last-of-type {
+    margin-left: 45px;
+}
