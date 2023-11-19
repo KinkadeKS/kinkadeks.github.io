@@ -119,8 +119,8 @@ input:checked + .slider:before {
 }
 
 .notif {
-    text-align: center;
     vertical-align: top;
+    text-align: center;
     display: inline-block;
     height: 250px;
     width: 350px;
@@ -135,6 +135,10 @@ input:checked + .slider:before {
     font-family: 'Courier New', Courier, monospace;
     font-weight: 500;
     background-color: rgb(180, 200, 225);
+}
+
+.notif button:last-of-type {
+    margin-top: 230px;
 }
 
 .left, .right {
