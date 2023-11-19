@@ -1,0 +1,77 @@
+main {
+    margin: 5px 5px;
+}
+
+#title {
+    margin-left: 33vw;
+}
+
+.content {
+    display: block;
+    text-align: center;
+}
+
+#message {
+    width: 35em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.75em;
+    border: 2px solid black;
+    padding: 35px 10px;
+    background-color: lightsteelblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.left, .call-button, .right {
+    display: inline-block;
+}
+
+.call-button {
+    vertical-align: top;
+    margin-top: 35px;
+}
+
+.call-button a {
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 120px;
+    padding-top: 45px;
+    padding-bottom: 15px;
+    height: 60px;
+    width: 120px;
+    background-color: lavender;
+    color: darkblue;
+}
+
+.left {
+    margin-right: 40px;
+}
+
+.right {
+    margin-left: 40px;
+}
+
+.left p, .right p {
+    height: 40px;
+    width: 200px;
+    padding: 12px 15px;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: pink;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#motivation {
+    margin-top: 45px;
+    font-family: cursive;
+    font-size: 18px;
+}
+
+.content img {
+    width: 55px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
