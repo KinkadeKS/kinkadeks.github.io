@@ -1,7 +1,23 @@
+#title {
+    margin-left: 36vw;
+}
+
 .content {
     text-align: center;
     display: block;
-    margin-top: 15em;
+    margin-top: 8em;
+}
+
+.content h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: steelblue;
+}
+
+.content p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    color: steelblue;
+    margin-bottom: 3em;
 }
 
 .content a {
@@ -15,6 +31,11 @@
     color: black;
     padding-top: 25px;
     border: 2px solid black;
+}
+
+.content a:hover {
+    transition: 0.1s;
+    outline: 3px solid sandybrown;
 }
 
 #match {
