@@ -19,12 +19,13 @@ main {
 .content div img {
     width: 200px;
     border: 2px solid black;
+    border-radius: 30px;
 }
 
 .content div:first-of-type {
-    margin-right: 40px;
+    margin-right: 50px;
 }
 
 .content div:last-of-type {
-    margin-left: 45px;
+    margin-left: 55px;
 }
