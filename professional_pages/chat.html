@@ -5,8 +5,8 @@
         <meta name="viewport" content="width=device-width initial-scale=1.0">
         <link rel="icon" href="../assets/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="../css/main.css">
-        <link rel="stylesheet" href="../css/quickmatch.css">
-        <title>Connect with Professionals</title>
+        <link rel="stylesheet" href="../css/chat.css">
+        <title>AI Chat</title>
     </head>
     <body>
         <div class="navbar">
@@ -15,42 +15,35 @@
                 <div class="dropdown-content">
                     <a href="../journaling_pages/journaling.html">📝 JOURNALING</a>
                     <a href="../chat.html">💬 CHAT</a>
-                    <a href="professional.html">👨🏻‍⚕️ PROFESSIONAL</a>
+                    <a href="../professional_pages/professional.html">👨🏻‍⚕️ PROFESSIONAL</a>
                     <a href="../resource_pages/resources.html">📖 RESOURCES</a>
                 </div>
             </div>
             <a id="home" href="../home.html">&#127968;<br>HOME</a>
-            <p id="title">Professionals</p>
+            <p id="title">Professional Chat</p>
             <a id="profile" href="../profile_pages/profile.html"><img src="../assets/profile_picture.jpg" alt="Profile Picture"></a>
         </div>
 
         <main>
             <div class="content">
-                <h2>What would you like to talk about?</p>
-                <div class="links">
-                    <div class="left">
-                        <a href="">Anxiety/Depression</a>
-                    </div>
+                <div class="sidebar">
+                    <p></p>
+                    <a href="">New Chat</a>
+                </div>
 
-                    <div class="middle">
-                        <a href="">Mental Health</a>
+                <div class="chat">
+                    <div class="messages">
+                        <div id="bot-message">
+                            <p>Hey user, what seems to be troubling you? I'm here to help!</p><img src="../assets/profile_picture.jpg" alt="Thrive Logo">
+                        </div>
+                        <div id="user-message">
+                            <p>...</p><img src="../assets/profile_picture.jpg" alt="User Profile Picture">
+                        </div>
                     </div>
-
-                    <div class="right">
-                        <a href="">Suicide</a>
-                    </div>
-
-                    <br>
-                    <div class="left">
-                        <a href="">Goal Setting</a>
-                    </div>
-
-                    <div class="middle">
-                        <a href="">Check-In</a>
-                    </div>
-
-                    <div class="right">
-                        <a href="">Other</a>
+                    <div class="input">
+                        <form>
+                            <input name="chat" type="text" placeholder="Send a message or ask a question!">
+                        </form>
                     </div>
                 </div>
             </div>

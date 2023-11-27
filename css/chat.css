@@ -48,6 +48,7 @@
     border-radius: 15px;
     padding: 7px 12px;
     margin-left: 13px;
+    background-color: lightblue;
 }
 
 #user-message img {
@@ -67,6 +68,7 @@
     border-radius: 15px;
     padding: 7px 12px;
     margin-left: 73vmax;
+    background-color: lightblue;
 }
 
 .input form {
