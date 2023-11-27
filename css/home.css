@@ -26,6 +26,7 @@ hr {
     text-align: center;
     padding: 5px 10px;
     margin-bottom: 45px;
+    background-color: cornsilk;
 }
 
 .quick-access a:hover {
@@ -55,4 +56,10 @@ hr {
     padding: 10px 15px;
     margin-left: 10px;
     margin-right: 10px;
+    background-color: antiquewhite;
+}
+
+.content div:hover {
+    outline: 5px solid lightsteelblue;
+    transition: 0.1s;
 }
