@@ -7,3 +7,6 @@
 - Kinkade Knox-Silvia
 - Varun Bharthavarapu
 - Javier Amaro
+
+# Disclaimer:
+- Website is meant to be viewed on a full-width laptop window as CSS is not responsive
