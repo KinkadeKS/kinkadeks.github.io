@@ -64,7 +64,7 @@ input:focus {
     background-color: rgb(250, 250, 250);
 }
 
-.confirmation input {
+.confirmation a button {
     display: inline-block;
     width: 375px;
     height: 40px;
